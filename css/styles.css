@@ -18,6 +18,17 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
 /* Navigation bar */
 
 .navbar {
@@ -60,7 +71,19 @@ h1 {
 /* features  */
 
 #features {
-  font-family: "Montserrat-bold";
+  font-family: "Montserrat-Bold";
   font-size: 1.5rem;
+  text-align: center;
+  margin: 10% 0 10% 0;
+  padding: 7% 15%;
+}
+
+.icon {
+  font-size: 5rem;
   color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
 }
